@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Media URL Shortener",
+  "description": "Removes :large from Twitter media links",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://pbs.twimg.com/media/*:large"],
+      "js": ["background.js"]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Installation instructions:
+Download and extract Extension folder
+Navigate Chrome to: chrome://extensions
+Enable developer mode in the top right corner of the panel
+Choose Load unpacked extension, and choose extracted Extension folder
+
+The extension automatically shortens any tab with Twitter media that uses the :large extension suffix. E.g. pbs.twimg.com/media/<filename>.jpg:large becomes pbs.twimg.com/media/<filename>.jpg
